@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset="utf-8">
+<title>Gameyard sign-up</title>
+<meta name="keywords" content="thegameyard.com/login">
+<meta name="description" content="the gameyard sign in, gameyard login">
+
+<style>
+
+* {
+        margin: 0;
+        padding: 0;
+        font-family:Jokerman;
+      }
+
+      body {
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(landscape.jpg);
+        height:130vh;
+       background-size:cover;
+	   background-repeat:no repeat;
+	   background-position:center;
+      }
+	  
+	  
+ ul{
+ float:right;
+ list-style-type:none;
+ margin-top:25px;
+ }
+ 
+ ul li{
+ display:inline-block;
+ }
+ 
+ ul li a{
+ text-decoration:none;
+ color:white;
+ padding:5px 20px;
+ border:1.5px solid powderblue;
+ transition:0.5s ease;
+ }
+ 
+ ul li a:hover{
+ background-color:white;
+ color:green;
+ }
+ 
+  ul li.active a{
+ background-color:white;
+ color:green;
+ } 
+ 
+.logo img {
+opacity:0.7;
+padding-top:10px;
+ float:left;
+ width:200px;
+ height:auto;
+ }
+  
+ 
+ .main{
+ max-width:1200px;
+ margin:auto;
+ }
+
+      .formContainer {
+	 
+        margin:30px auto;
+        width: 500px;
+        border: 0;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px #000000;
+        background-color: rgba(0, 0, 0, 0.6);
+		
+      }
+	  
+	  
+   h2 {
+        text-align: center;
+        color: #ffffff;
+        padding: 10px 0;
+      }
+
+      .loginform {
+        text-align: center;
+        color: #ffffff;
+      }
+
+      input {
+        width: 290px;
+        height: 25px;
+        border: 0;
+        padding: 0 5px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+      }
+
+      #submitButton {
+        width: 200px;
+        background-color: purple;
+        font-weight: 600;
+      }
+
+      #submitButton:hover {
+        background-color: powderblue;
+      }
+
+      p {
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 20px
+      }
+
+      .signupLink {
+        margin: 2px auto;
+        text-align: center;
+        width: 250px;
+        padding: 10px 0;
+        border-radius: 5px;
+      }
+
+      .linkContainer {
+        padding-bottom: 20px;
+      }
+
+      a {
+        text-decoration: none;
+        color: #ffffff;
+      }
+
+      #facebook {
+        background-color: rgb(59, 89, 152);
+		
+      }
+
+      #google {
+        background-color: rgb(219, 68, 55);
+		
+      }
+
+      #twitter {
+        background-color: rgb(28, 96, 141);
+		
+      }
+	  
+	   .btn {
+  border:0px solid powderblue;
+  padding: 10px 95px;
+  color:white;
+  text-decoration:none;
+  transition:1.5s ease;
+  
+  }
+    
+ .btn:hover{
+  background-color:transparent;
+ color:gray;
+ }
+ 
+
+      .textColor {
+        color: #1a75ff;
+		
+      }
+	  .textColor:hover{
+  background-color:transparent;
+ color:green;
+ transition:0.4s ease;
+ 
+ }
+
+      #privacyPolicy {
+        width: 320px;
+        margin: auto;
+        padding-bottom: 10px;
+      }
+
+
+
+  </style>
+
+  </head>
+  <body>
+  <div class="main">
+  <div class="logo">
+   <img src="redpad.png">
+   </div> 
+    <ul>
+	  <li><a href="#">Home</a></li>
+	  <li><a href="#">News</a></li>
+	  <li><a href="#">Deals</a></li>
+	  <li><a href="#">Updates</a></li>
+	  <li><a href="#">Tournaments</a></li>
+	<li class="active"><a href="#">login</a></li>
+	
+	 </ul>
+  <br> </br>
+  <
+  <br>
+<p> THE GAME YARD </P>
+</BR>
+  
+<div class="formContainer">
+      <h2>sign up</h2>
+      <form class="loginform" action="" method="">
+        <label for="firstName"></label>
+        <input type="name" name="firstName" placeholder="First Name" required>
+
+        <label for="lastName"></label>
+        <input type="name" name="lastName" placeholder="Last Name" required>
+
+        <label for="email"></label>
+        <input type="email" name="email" placeholder="Email" required>
+
+        <label for="password"></label>
+        <input type="password" name="password" placeholder="Password" required>
+
+        <label for="confirmPassword"></label>
+        <input type="password" name="confirmPassword" placeholder="Confirm Password" required>
+
+        <input id="submitButton" type="submit" name="submit" value="Submit">
+      </form>
+
+      <p>or connect with</p>
+
+      <div class="linkContainer">
+        <div class="button">
+		
+		<div class="signupLink" id="facebook">
+          <a href="#" class="btn">Facebook</a>
+        </div>
+        <div class="signupLink" id="google">
+          <a href="#" class="btn">Google+</a>
+        </div>
+        <div class="signupLink" id="twitter">
+          <a href="#" class="btn">Twitter</a>
+		 
+        </div>
+      </div>
+
+      <p>have an account? <a href="#" class="textColor" >login</a></p>
+      <p id="privacyPolicy">By creating your account, you agree to the <a href="#" class="textColor">Terms of Use</a> and <a href="#" class="textColor">Privacy Policy</a>.</p>
+</div>
+    </div>
+	
+	
+  </body>
+</html>
